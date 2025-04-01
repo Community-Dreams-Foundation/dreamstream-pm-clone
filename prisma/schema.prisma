@@ -39,7 +39,7 @@ model Sprint {
   startDate DateTime
   endDate   DateTime
   status    SprintStatus @default(PLANNED)
-  project   Project  @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  project   Project  @relation(fields: [projectId], references: [id], onDelete: Cascade) // Correct case
   projectId String
   issues    Issue[]
   createdAt DateTime @default(now())
@@ -57,9 +57,9 @@ model Issue {
   assigneeId  String?
   reporter    User       @relation("Reporter", fields: [reporterId], references: [id])
   reporterId  String
-  project     Project    @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  project     Project    @relation(fields: [projectId], references: [id], onDelete: Cascade) // Correct case
   projectId   String
-  sprint      Sprint?    @relation(fields: [sprintId], references: [id], onDelete: SetNull)
+  sprint      Sprint?    @relation(fields: [sprintId], references: [id], onDelete: SetNull) // Correct case
   sprintId    String?
   createdAt   DateTime   @default(now())
   updatedAt   DateTime   @updatedAt
