@@ -1,42 +1,38 @@
 [
   {
-    "name": "amazon",
-    "path": "/companies/amazon.svg",
+    "name": "Community Dreams Foundation",
+    "path": "/companies/logo-light.png",
     "id": 1
   },
+
   {
-    "name": "atlassian",
-    "path": "/companies/atlassian.svg",
+    "name": "Community Dreams Foundation",
+    "path": "/companies/logo-light.png",
     "id": 2
   },
   {
-    "name": "google",
-    "path": "/companies/google.webp",
+    "name": "Community Dreams Foundation",
+    "path": "/companies/logo-light.png",
     "id": 3
+  
   },
+
   {
-    "name": "ibm",
-    "path": "/companies/ibm.svg",
+    "name": "Community Dreams Foundation",
+    "path": "/companies/logo-light.png",
     "id": 4
   },
+
   {
-    "name": "meta",
-    "path": "/companies/meta.svg",
+    "name": "Community Dreams Foundation",
+    "path": "/companies/logo-light.png",
     "id": 5
   },
-  {
-    "name": "microsoft",
-    "path": "/companies/microsoft.webp",
-    "id": 6
-  },
-  {
-    "name": "netflix",
-    "path": "/companies/netflix.png",
-    "id": 7
-  },
-  {
-    "name": "uber",
-    "path": "/companies/uber.svg",
-    "id": 8
-  }
+
+    {
+      "name": "Community Dreams Foundation",
+      "path": "/companies/logo-light.png",
+      "id": 6
+    }
+
 ]
